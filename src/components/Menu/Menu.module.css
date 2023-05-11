@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Ubuntu&display=swap');
+
+.menu {
+  background: #1A1A1A !important;
+  margin: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: absolute;
+}
+
+h1.logo {
+  position: absolute;
+  width: 39px;
+  height: 42px;
+  left: 10%;
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32.0061px;
+  line-height: 42px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+
+a:link,
+a:active,
+a:visited {
+  color: #e3f0fd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.menu li a {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.menu li a:hover {
+  text-decoration: none;
+  background: #e3f0fd;
+  color: black;
+}
